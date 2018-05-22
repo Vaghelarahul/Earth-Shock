@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/setting_title"
+    >
+
+    <EditTextPreference
+        android:key="@string/min_mag_key"
+        android:defaultValue="@string/min_mag_default"
+        android:title="@string/min_mag_label"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        />
+
+    <ListPreference
+        android:defaultValue="@string/order_by_default"
+        android:entries="@array/setting_order_by_label"
+        android:entryValues="@array/settings_order_by_value"
+        android:key="@string/order_by_key"
+        android:title="@string/order_by_label"
+        />
+
+</PreferenceScreen>

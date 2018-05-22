@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="setting_order_by_label">
+        <item>@string/order_by_magnitude_label</item>
+        <item>@string/order_by_most_recent_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_value">
+        <item>@string/order_by_magnitude_value</item>
+        <item>@string/order_by_most_recent_value</item>
+    </string-array>
+
+
+</resources>
